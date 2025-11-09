@@ -6,11 +6,11 @@
 ![project section] <img width="1340" height="779" alt="image" src="https://github.com/user-attachments/assets/46fd2195-e0a8-48ad-812d-50b870922680" />
 ![contact section] <img width="1339" height="789" alt="image" src="https://github.com/user-attachments/assets/6e96a983-d3ec-4a80-8bf5-b31a02e2e0f1" />
 
-#2 A sleek, responsive portfolio website featuring smooth animations and modern design principles. Built with pure HTML, CSS, and JavaScript to showcase frontend development #2 skills and UI design expertise.  ✨ Features
+# A sleek, responsive portfolio website featuring smooth animations and modern design principles. Built with pure HTML, CSS, and JavaScript to showcase frontend development  skills and UI design expertise.  ✨ Features
 
-#3Mpilwenhle - Modern Portfolio Website
+# Mpilwenhle - Modern Portfolio Website
 
-#2✨ Features
+# ✨ Features
 Modern & Responsive Design - Fully responsive layout that works on all devices
 
 Smooth Animations - CSS animations and transitions for enhanced user experience
@@ -21,7 +21,7 @@ Performance Optimized - Fast loading times and optimized assets
 
 Accessibility Focused - Semantic HTML and accessible design patterns
 
-🛠️ Technologies Used
+# 🛠️ Technologies Used
 Frontend: HTML5, CSS3, JavaScript (ES6+)
 
 Styling: Custom CSS with CSS Grid & Flexbox
@@ -32,7 +32,7 @@ Fonts: Google Fonts (Montserrat & Playfair Display)
 
 Animations: Custom CSS animations and transitions
 
-#2🎨 Design Highlights
+# 🎨 Design Highlights
 Gradient backgrounds and modern color schemes
 
 Interactive hover effects and smooth scrolling
@@ -45,7 +45,7 @@ Contact form with validation
 
 Social media integration
 
-#2📱 Sections Included
+# 📱 Sections Included
 Hero Section - Eye-catching introduction with call-to-action buttons
 
 About Me - Personal background and professional summary
@@ -55,11 +55,11 @@ Skills - Technical skills with animated skill cards
 Projects - Portfolio projects with live demo links
 
 Contact - Contact form and social media links
-📄 License
+# 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-#2 👨‍💻 Developer
-#3 Mpilwenhle
+#  👨‍💻 Developer
+# Mpilwenhle
 
 Email: itsmpilo@gmail.com
 
