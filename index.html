@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Mpilwenhle - Frontend Developer & UI Designer">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://i.postimg.cc/SQ5sFDpK/icon.png" type="image/jpg">
+    <title>Mpilwenhle | Creative Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo animate-up">Mpilwenhle<span class="logo-dot"></span></a>
+            
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+            
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1 class="hero-title animate-up">Frontend Developer <span>& UI Designer</span></h1>
+            <p class="hero-description animate-up delay-1">Hi, I'm Mpilwenhle, a passionate frontend developer and UI designer. I love creating beautiful and functional web applications.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn animate-up delay-2"><span>View My Work</span></a>
+                <a href="#contact" class="btn btn-outline animate-up delay-3"><span>Contact Me</span></a>
+            </div>
+        </div>
+        <div class="hero-shape"></div>
+        <div class="hero-shape-2"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title animate-left">About Me</h2>
+            <p class="section-subtitle animate-left delay-1">Get to know more about my background, skills, and what drives me as a developer and designer.</p>
+            
+            <div class="about-content">
+                <div class="about-image animate-left delay-2">
+                    <img src="https://i.postimg.cc/cHHQjrM8/mewithsuit.jpg" alt="Mpilwenhle" class="about-img">
+                </div>
+                <div class="about-text">
+                    <h3 class="animate-left delay-1">Crafting Digital Experiences</h3>
+                    <p class="animate-left delay-2">I'm a passionate frontend developer with expertise in creating responsive, user-friendly websites and applications. With a strong focus on UI/UX design, I strive to create digital experiences that are both visually appealing and highly functional.</p>
+                    <p class="animate-left delay-3">My approach combines technical expertise with creative design thinking to deliver solutions that meet user needs and business goals. I'm constantly learning and adapting to new technologies to stay at the forefront of web development.</p>
+                    <a href="#contact" class="btn animate-left delay-4" style="margin-top: 20px;"><span>Let's Work Together</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title animate-rotate">My Skills</h2>
+            <p class="section-subtitle animate-rotate delay-1">I've worked with a range of technologies and tools in the web development world.</p>
+            
+            <div class="skills-grid">
+                <div class="skill-card animate-rotate delay-1">
+                    <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                    <h3 class="skill-title">HTML</h3>
+                    <p class="skill-desc">Semantic markup, accessibility, and modern HTML5 features.</p>
+                </div>
+                
+                <div class="skill-card animate-rotate delay-2">
+                    <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                    <h3 class="skill-title">CSS</h3>
+                    <p class="skill-desc">Flexbox, Grid, animations, and responsive design principles.</p>
+                </div>
+                
+                <div class="skill-card animate-rotate delay-3">
+                    <div class="skill-icon"><i class="fab fa-js"></i></div>
+                    <h3 class="skill-title">JavaScript</h3>
+                    <p class="skill-desc">ES6+, modern frameworks, and interactive web applications.</p>
+                </div>
+                
+                <div class="skill-card animate-rotate delay-4">
+                    <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3 class="skill-title">UI/UX Design</h3>
+                    <p class="skill-desc">User-centered design, prototyping, and design systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title animate-right">My Projects</h2>
+            <p class="section-subtitle animate-right delay-1">Here are some of the projects I've worked on that showcase my skills and experience.</p>
+            
+            <div class="projects-grid">
+                <div class="project-card animate-up delay-1">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Fashion Store" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Fashion Store</h3>
+                        <p class="project-desc">An e-commerce platform with product filtering, cart functionality, and secure checkout.</p>
+                        <a href="https://nebula-demo-ecommerce-store.vercel.app/" class="btn"><span>View Project</span></a>
+                    </div>
+                </div>
+                
+                <div class="project-card animate-up delay-2">
+                    <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1335&q=80" alt="Travel App" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Global Trotter</h3>
+                        <p class="project-desc">A travel booking application with interactive maps and itinerary planning features.</p>
+                        <a href="https://global-trotter-traveling-app.vercel.app/" class="btn"><span>View Project</span></a>
+                    </div>
+                </div>
+                
+                <div class="project-card animate-up delay-3">
+                    <img src="https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=928" alt="Health Dashboard" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Health Tracker</h3>
+                        <p class="project-desc">A dashboard for tracking health metrics with data visualization and goal setting.</p>
+                        <a href="#" class="btn"><span>View Project</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title animate-fade">Get In Touch</h2>
+            <p class="section-subtitle animate-fade delay-1">Have a project in mind or want to collaborate? Feel free to reach out!</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3 class="animate-left delay-1">Contact Information</h3>
+                    
+                    <div class="contact-detail animate-left delay-2">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <p>itsmpilo@gmail.com</p>
+                    </div>
+                    
+                    <div class="contact-detail animate-left delay-3">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <p>+27 76 503 0961</p>
+                    </div>
+                    
+                    <div class="contact-detail animate-left delay-4">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <p>Mpumalanga, South Africa</p>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link animate-fade delay-1"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link animate-fade delay-2"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link animate-fade delay-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link animate-fade delay-4"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group animate-right delay-1">
+                            <input type="text" class="form-input" placeholder="Your Name" required>
+                        </div>
+                        
+                        <div class="form-group animate-right delay-2">
+                            <input type="email" class="form-input" placeholder="Your Email" required>
+                        </div>
+                        
+                        <div class="form-group animate-right delay-3">
+                            <textarea class="form-input" placeholder="Your Message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn animate-right delay-4"><span>Send Message</span></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <a href="#" class="footer-logo animate-fade" id="icons-footer">Mpilwenhle</a><br>
+            <ul class="footer-nav">
+                <li class="footer-tabs animate-fade delay-1"><a href="#home">home</a></li>
+                <li class="footer-tabs animate-fade delay-2"><a href="#about">about</a></li>
+                <li class="footer-tabs animate-fade delay-3"><a href="#skills">skills</a></li>
+                <li class="footer-tabs animate-fade delay-4"><a href="#projects">projects</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="https://github.com/Mpilwenhle846"><i class="fa-brands fa-github icons-footer animate-fade delay-1"></i></a>
+                <a href="https://www.instagram.com/mpilwenhle_official/"><i class="fa-brands fa-instagram icons-footer animate-fade delay-2"></i></a>
+                <a href="https://www.facebook.com/enough.rips.3"><i class="fa-brands fa-facebook icons-footer animate-fade delay-3"></i></a>
+            </div>
+            <p class="copyright animate-fade delay-4">&copy; 2025 Mpilwenhle. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js">
+     
+    </script>
+</body>
+</html>
